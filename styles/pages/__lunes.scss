@@ -1,0 +1,108 @@
+
+.header{
+    border: 10px solid orange;
+    width: 100%;
+    height: 200px;
+}
+
+.banner{
+    height: 630px;
+    .image-container{
+        height: 600px;
+        width: 100%;
+        background-size: cover
+   
+    }
+   
+}
+#container-icons{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 20px solid orange;
+    h2{
+        padding: 20px 80px;
+
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 70%;
+
+        .icon-img-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            #last-icon{
+                width: 154px;
+                height: 145px;
+
+            }
+
+            h3{
+                font-size: 15px;
+                padding: 25px 160px;
+            }
+
+            img{
+                cursor: pointer;
+                width: 132px;
+                height: 126px;
+
+               
+            }
+        }
+    }
+}
+.consignas-container{
+    width: 80%;
+    margin: 0 auto;
+    border-right: 10px solid orange;
+    border-left: 10px solid orange;
+
+    h2{
+        padding: 15px;
+    }
+    .boton-carpeta{
+            
+        display: flex;
+        justify-content: center;
+        padding: 12px 0px;
+        button{
+            outline: none;
+            width: 140px;
+            height: 50px;
+            border-radius: 20px;
+        }
+    }
+    .box{
+        width: 90%;
+        margin: 0 auto;
+
+        .consigna{
+            p{
+                padding: 10px 40px;
+            }
+
+            .nota{
+                p{
+                    color: #968181;
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+}
+
+
+body {
+    font-family: $main-font;
+    padding: 0;
+    margin: 0;
+    background-color:  whitesmoke;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
